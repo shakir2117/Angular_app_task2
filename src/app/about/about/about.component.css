@@ -1,0 +1,27 @@
+.container{
+    height:50vw;
+}
+.container h1{
+    padding: 1em;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 60px;
+    color: #fff;
+    font-weight: bold;
+    text-transform:uppercase;
+    margin: 0;
+}
+.container p {
+    font-size: 20px;
+    color: #000000;
+    text-transform: uppercase;
+    margin: 20px 0;
+    justify-content: center;
+  }
+.container img {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    float: right;
+  }
