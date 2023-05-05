@@ -9,10 +9,11 @@ import { HomeModule } from './home/home.module';
 import { AboutModule } from './about/about.module';
 import { ContactModule } from './contact/contact.module';
 import { RouterLink, RouterModule} from '@angular/router';
+import { TextColorDirective } from './about/text-color.directive';
 @NgModule({
   declarations: [
     AppComponent
-  ],
+    ],
   imports: [
     BrowserModule,
     AppRoutingModule,

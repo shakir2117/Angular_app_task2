@@ -4,6 +4,7 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { RouterLink } from '@angular/router';
 import { FooterComponent } from './footer/footer.component';
+import { HomeRoutingModule } from './home-routing.module';
 
 
 
@@ -15,7 +16,8 @@ import { FooterComponent } from './footer/footer.component';
   ],
   imports: [
     RouterLink,
-    CommonModule
+    CommonModule,
+    HomeRoutingModule,
   ],
   exports: [
     HeaderComponent,
