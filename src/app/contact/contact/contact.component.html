@@ -1,7 +1,7 @@
 <app-header></app-header>
 <div class="container">
   <h1>Contact Us</h1>
-  <form (ngSubmit)="onSubmit()">
+  <!-- <form (ngSubmit)="onSubmit()" class="form">
     <div class="form-group">
       <label>Name:</label>
       <input type="text" class="form-control" name="name" [(ngModel)]="name" placeholder="Name">
@@ -25,7 +25,12 @@
       <label>More Details</label>
       <textarea class="form-control" name="details" [(ngModel)]="details" rows="3" id='detail'></textarea>
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
-  </form>
+    <br>
+    <mat-slide-toggle class="form-control">Subscribe for the news letter for daily updates</mat-slide-toggle>
+    <br>
+    <pre></pre>
+    <button type="submit" class="btn" mat-fab>Submit</button>
+  </form> -->
+  <app-address></app-address>
 </div>
 <app-footer></app-footer>

@@ -1,14 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './about/about.component';
+import { AddressComponent } from '../contact/address/address.component';
 
 const routes: Routes = [
   {
-    path:'about',component:AboutComponent,
+    path:'',component:AboutComponent,
     children:[
       {
         path:'about',component:AboutComponent
       }
+
     ]
   }
 ];

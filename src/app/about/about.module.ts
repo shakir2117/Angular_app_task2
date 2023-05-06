@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AboutComponent } from './about/about.component';
-import { HomeComponent } from '../home/home/home.component';
 import { HomeModule } from '../home/home.module';
 import { AboutRoutingModule } from './about-routing.module';
 import { TextColorDirective } from './text-color.directive';
@@ -11,12 +10,13 @@ import { TextColorDirective } from './text-color.directive';
 @NgModule({
   declarations: [
     AboutComponent,
-    TextColorDirective
-  ],
+    TextColorDirective,
+    ],
   imports: [
     CommonModule,
     HomeModule,
-    AboutRoutingModule
+    AboutRoutingModule,
+
   ],
   exports:[
     AboutComponent

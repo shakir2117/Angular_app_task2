@@ -9,6 +9,9 @@ import { HomeModule } from './home/home.module';
 import { AboutModule } from './about/about.module';
 import { ContactModule } from './contact/contact.module';
 import { RouterLink, RouterModule} from '@angular/router';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+
+
 @NgModule({
   declarations: [
     AppComponent
@@ -23,6 +26,8 @@ import { RouterLink, RouterModule} from '@angular/router';
     NgbModule,
     RouterLink,
     RouterModule,
+    MatSlideToggleModule,
+    // MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

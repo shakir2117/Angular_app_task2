@@ -1,11 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
 html,
-body {
-    font-family: 'Open Sans', sans-serif;
-    background: #fff;
-    margin: 0px;
-}
+
 body {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
@@ -25,3 +21,5 @@ body {
         background-position: 0% 50%;
     }
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
