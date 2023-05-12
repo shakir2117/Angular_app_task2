@@ -14,7 +14,8 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    
   ],
   imports: [
     BrowserModule,
@@ -27,7 +28,7 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
     RouterLink,
     RouterModule,
     MatSlideToggleModule,
-    // MatButtonModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

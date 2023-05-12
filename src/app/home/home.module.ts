@@ -5,13 +5,14 @@ import { HomeComponent } from './home/home.component';
 import { RouterLink } from '@angular/router';
 import { FooterComponent } from './footer/footer.component';
 import { HomeRoutingModule } from './home-routing.module';
-// import { MatButtonModule } from '@angular/material';
+import { ElipsPipe } from './home/elips.pipe';
 
 @NgModule({
   declarations: [
     HeaderComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    ElipsPipe
   ],
   imports: [
     RouterLink,
